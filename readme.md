@@ -56,9 +56,11 @@ How to setup:
 
 In index.html (or whatever template file you choose that resides at the root of the project) put your content between the tags of:
 
+```
 <!-- MAIN_CONTENT_START -->
 
 <!-- MAIN_CONTENT_END -->
+```
 
 so a typical index.html will look like:
 
