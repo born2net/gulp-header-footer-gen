@@ -4,7 +4,7 @@ gulp-header-footer-gen
 Most web sites share a common HTML header and footer throughout a web site.
 This Plugin attempts to solve a simple problem, the ability to share a single page template that includes both a header and footer with the entire web site (all html pages).
 
-If you know DreamWeaver, it's the same ida as Web Template (DWT)
+If you know DreamWeaver, it's the same idea as Web Template (DWT)
 
 Easier to explain with an example.
 
