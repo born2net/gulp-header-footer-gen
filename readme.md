@@ -58,6 +58,10 @@ in index.html (or whatever template file you choose, but index.html is a good de
 
 so a typical index.html will look like:
 
+
+HTML template sample:
+==============
+
 ```
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -108,6 +112,9 @@ so a typical index.html will look like:
 
 ```
 
+Plugin responsibility:
+==============
+
 so the plugin will do the following:
 
 1. remove index.html content (between the MAIN_CONTENT START and END).
@@ -122,11 +129,8 @@ remember, in your _html/file1.html etc you also need to use the same pattern, i.
 <!-- MAIN_CONTENT_END -->
 
 
-to see a working example visit:
-
-https://github.com/born2net/webSiteBoilerplate
-
-and to the plugin execute task as:
+To execute:
+==============
 
 ```
 gulp.task('headerFooterGan', function () {
@@ -140,3 +144,7 @@ function handleError(err) {
     this.emit('end');
 }
 ```
+
+Demo:
+==============
+https://github.com/born2net/webSiteBoilerplate
