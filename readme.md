@@ -2,9 +2,11 @@ gulp-header-footer-gen
 ==========================
 
 Most web sites share a common HTML header and footer throughout a web site.
-This Plugin attempts to solve a simple problem, the ability to share a single page template that includes both a header and footer with the entire web site.
+This Plugin attempts to solve a simple problem, the ability to share a single page template that includes both a header and footer with the entire web site (all html pages).
 
-Easier to explain via an example.
+If you know DreamWeaver, it's the same ida as Web Template (DWT)
+
+Easier to explain with an example.
 
 Site structure:
 
@@ -44,13 +46,15 @@ index.html
 
 </pre>
 
+with all references to ./ changed to ../
+
 so gulp-header-footer-gen will generate the HTML pages for us.
 
 
 How to setup:
 ==============
 
-in index.html (or whatever template file you choose, but index.html is a good design pattern, put your content between the tags of:
+In index.html (or whatever template file you choose that resides at the root of the project) put your content between the tags of:
 
 <!-- MAIN_CONTENT_START -->
 
@@ -121,10 +125,11 @@ Plugin responsibility:
 
 remember, in your _html/file1.html etc you also need to use the same pattern, i.e.: put all content between the opening and closing tags of
 
+```
 <!-- MAIN_CONTENT_START -->
 ...
 <!-- MAIN_CONTENT_END -->
-
+```
 
 To execute:
 ==============
