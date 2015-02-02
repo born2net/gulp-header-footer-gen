@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/VFK/gulp-html-replace.git"
+    "url": "https://github.com/born2net/gulp-header-footer-gen"
   },
   "author": {
     "name": "Sean Levy"
@@ -36,6 +36,6 @@
   "license": "MIT",
   "readmeFilename": "readme.md",
   "bugs": {
-    "url": "https://github.com/VFK/gulp-html-replace/issues"
+    "url": "https://github.com/born2net/gulp-header-footer-gen/issues"
   }
 }
