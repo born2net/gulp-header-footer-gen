@@ -123,9 +123,9 @@ Plugin responsibility:
 
 - remove index.html content (between the MAIN_CONTENT START and END).
 - use the rest of the page as a template
-- replace the content of all _html./... pages with the index.html template and replace all './' paths with '../' so we can still load up images, CSS, scripts etc from proper path.
+- replace the content of all _html/* pages with the index.html template and replace all './' paths with '../' so we can still load up images, CSS, scripts etc from proper path.
 
-remember, in your _html/file1.html etc you also need to use the same pattern, i.e.: put all content between the opening and closing tags of
+remember, in your _html/file1.html etc you also need to use the same pattern, i.e.: put all page content between the opening and closing tags of
 
 ```
 <!-- MAIN_CONTENT_START -->
