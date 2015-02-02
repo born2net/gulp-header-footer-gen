@@ -115,12 +115,9 @@ HTML template sample:
 Plugin responsibility:
 ==============
 
-so the plugin will do the following:
-
-1. remove index.html content (between the MAIN_CONTENT START and END).
-2  use the rest of the page as a template
-3. replace the content of all _html./... pages with the index.html template and replace all './' paths with '../' so
-we can still load up images, CSS, scripts etc from proper path.
+- remove index.html content (between the MAIN_CONTENT START and END).
+- use the rest of the page as a template
+- replace the content of all _html./... pages with the index.html template and replace all './' paths with '../' so we can still load up images, CSS, scripts etc from proper path.
 
 remember, in your _html/file1.html etc you also need to use the same pattern, i.e.: put all content between the opening and closing tags of
 
