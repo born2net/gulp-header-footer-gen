@@ -1,0 +1,41 @@
+{
+  "name": "gulp-header-footer-gen",
+  "main": "./gulp-header-footer-gen.js",
+  "version": "0.8",
+  "description": "create html pages using a template's header and footer.",
+  "keywords": [
+    "gulpplugin",
+    "html template",
+    "replace",
+    "header",
+    "footer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VFK/gulp-html-replace.git"
+  },
+  "author": {
+    "name": "Sean Levy"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "dependencies": {
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.1",
+    "event-stream": "^3.1.7",
+    "gulp-util": "^3.0.0",
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.3"
+  },
+  "license": "MIT",
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/VFK/gulp-html-replace/issues"
+  }
+}
