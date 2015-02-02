@@ -45,13 +45,12 @@ index.html
 </pre>
 
 so gulp-header-footer-gen will generate the HTML pages for us.
-It will
+
 
 How to setup:
 ==============
 
-in index.html (or whatever template file you choose, but index.html is a good design pattern to use as the template to use for header and footer),
-put your content between the tags of:
+in index.html (or whatever template file you choose, but index.html is a good design pattern, put your content between the tags of:
 
 <!-- MAIN_CONTENT_START -->
 
@@ -89,7 +88,6 @@ so a typical index.html will look like:
 <section id="myContentForIndex">
 </section>
 
-
 <!-- MAIN_CONTENT_END -->
 
 <footer>
@@ -112,8 +110,9 @@ so a typical index.html will look like:
 
 so the plugin will do the following:
 
-remove index.html content (between the MAIN_CONTENT START END END), and use the rest of the page as a template.
-replace the content of all _html./... pages with the index.html template and replace all './' paths with '../' so
+1. remove index.html content (between the MAIN_CONTENT START and END).
+2  use the rest of the page as a template
+3. replace the content of all _html./... pages with the index.html template and replace all './' paths with '../' so
 we can still load up images, CSS, scripts etc from proper path.
 
 remember, in your _html/file1.html etc you also need to use the same pattern, i.e.: put all content between the opening and closing tags of
