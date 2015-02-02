@@ -128,7 +128,7 @@ https://github.com/born2net/webSiteBoilerplate
 
 and to the plugin execute task as:
 
-
+```
 gulp.task('headerFooterGan', function () {
     gulp.src('./_source/*')
         .pipe(headerfootergen('./index.html')).on('error', handleError)
@@ -139,3 +139,4 @@ function handleError(err) {
     console.log(err.toString());
     this.emit('end');
 }
+```
