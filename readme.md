@@ -10,6 +10,7 @@ Site structure:
 
 before gulp execution:
 
+<pre>
 index.html
 |
    _source -
@@ -20,10 +21,12 @@ index.html
    _js
    _css
    ...
+</pre>
 
 
 after gulp execution:
 
+<pre>
 index.html
 |
    _source -
@@ -39,6 +42,7 @@ index.html
    _css
    ...
 
+</pre>
 
 so gulp-header-footer-gen will generate the HTML pages for us.
 It will
